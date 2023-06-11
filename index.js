@@ -3,27 +3,6 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-
-// At a bare minimum, a README needs a title and a short description explaining the what, why, and how of the project.
-// Use the following questions as a guide:
-// What was your motivation?
-// Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-// What problem does it solve?
-// What did you learn?
-// What makes your project stand out?
-
-// # <Your-Project-Title>
-// ## Description
-// ## Table of Contents (Optional)
-// ## Installation
-// ## Usage
-// ## Credits
-// ## License
-// ## Badges
-// ## Features
-// ## How to Contribute
-// ## Tests
-
 const questions = [
     {
         type: 'input',
@@ -33,7 +12,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Right a brief description of your project',
+        message: 'Right a brief description of your project, including motivation for creation, what problem it solves, what you learnt and why it stands out',
     },
     {
         type: 'input',
@@ -72,16 +51,44 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log("Successful")
+    err ? console.error(err) : console.log("README file generated successfully.")
     );
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(answers => {
-        console.log("Success2!");
-        writeToFile("fileName",JSON.stringify(answers, null, '\t'));
+        const readmeContent = generateREADME(answers)
+        writeToFile("README.md",readmeContent);
     })
+}
+
+function generateREADME(answers){
+    const readmeContent = `
+# ${answers.title}
+    
+## Description
+${answers.description}
+
+## Usage
+${answers.usage}
+
+## Credits
+${answers.credits}
+
+## Installation
+${answers.installation}
+
+## Badges
+${answers.badges}
+
+## How to Contribute
+${answers.contribute}
+
+## Tests
+${answers.tests}
+`
+return readmeContent;
 }
 
 // Function call to initialize app
