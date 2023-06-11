@@ -29,7 +29,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message:'Provide instructions and examples for use. Include screenshots as needed.',
+        message:'Provide instructions and examples for use.',
     },
     {
         type: 'input',
@@ -54,10 +54,9 @@ const questions = [
         choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
     },
     {
-        type: 'list',
+        type: 'input',
         message: 'How do you people contribute to this project',
         name: 'contribute',
-        choices: ['email', 'phone', 'telekinesis'],
     },
     {
         type: 'input',
@@ -82,7 +81,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(answers => {
         const readmeContent = generateMarkdown(answers)
-        writeToFile("README.md",readmeContent);
+        writeToFile("output/README.md",readmeContent);
     })
 }
 
