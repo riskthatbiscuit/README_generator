@@ -53,7 +53,8 @@ ${answers.description}
 - [Language Badges](#language-badges-)
 - [License](#license-)
 - [Tests](#tests-)
-- [Questions & How to Contribute](#questions--how-to-contribute-)
+- [How to Contribute](#how-to-contribute-)
+- [Questions](#questions-)
 
 ## Usage 🚀
 ${answers.usage}
