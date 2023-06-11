@@ -45,7 +45,7 @@ const questions = [
         type: 'list',
         message: 'Choose a license for your application:',
         name: 'license',
-        choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'ISC', 'Unlicense'],
+        choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'ISC', 'Unlicensed'],
     },
     {
         type: 'checkbox',
@@ -58,6 +58,16 @@ const questions = [
         message: 'How do you people contribute to this project',
         name: 'contribute',
         choices: ['email', 'phone', 'telekinesis'],
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub username:',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address:',
     },
 ];
 

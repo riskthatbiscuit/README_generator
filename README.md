@@ -1,10 +1,10 @@
 
-# 🌟 Proejct 1
+# 🔥 asdf
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
     
 ## Description 📝
-and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
+his application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’
 
 
 ## Table of Contents
@@ -17,26 +17,33 @@ and licenseSection variables. You have written licenceBadge and licenceSection i
 - [Questions & How to Contribute](#questions--how-to-contribute-)
 
 ## Usage 🚀
-and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
+his application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’
 
 ## Credits 👏
-and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
+his application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’
 
 ## Installation 🛠️
-and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
+his application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’
 
 ## Language Badges 💻
-![HTML](https://img.shields.io/badge/-HTML-brightgreen) ![CSS](https://img.shields.io/badge/-CSS-brightgreen) ![JavaScript](https://img.shields.io/badge/-JavaScript-brightgreen)
+![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-orange) ![JavaScript](https://img.shields.io/badge/-JavaScript-orange)
 
- 
-## License
+
+## License 📝
 
 This application is covered under the MIT license.
 
 For more details, please refer to the [MIT License](LICENSE).
 
 ## Tests ✅
-and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
+his application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’
 
-## Questions & How to Contribute 🤝
+## How to Contribute 🤝
 email
+
+## Questions
+For any additional questions, please contact me:
+
+GitHub: [asdf](https://github.com/asdf)
+
+Email: asdfgg

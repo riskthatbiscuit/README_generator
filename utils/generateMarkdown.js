@@ -35,9 +35,7 @@ function generateMarkdown(answers) {
   const licenseBadge = renderLicenseBadge(answers.license);
   const licenseSection = renderLicenseSection(answers.license);
   
-  const languageBadges = answers.languages.map(language => {
-    return `![${language}](https://img.shields.io/badge/-${encodeURIComponent(language)}-orange)`;
-  }).join(' ');
+  const languageBadges = answers.languages.map(language => `![${language}](https://img.shields.io/badge/-${encodeURIComponent(language)}-orange)`).join(' ');
 
   const readmeContent = `
 # ${answers.titleEmoji} ${answers.title}
@@ -52,7 +50,7 @@ ${answers.description}
 - [Usage](#usage-)
 - [Credits](#credits-)
 - [Installation](#installation-)
-- [Badges](#badges-)
+- [Language Badges](#language-badges-)
 - [License](#license-)
 - [Tests](#tests-)
 - [Questions & How to Contribute](#questions--how-to-contribute-)
@@ -74,11 +72,17 @@ ${licenseSection}
 ## Tests ✅
 ${answers.tests}
 
-## Questions & How to Contribute 🤝
+## How to Contribute 🤝
 ${answers.contribute}
+
+## Questions
+For any additional questions, please contact me:
+
+GitHub: [${answers.github}](https://github.com/${answers.github})
+
+Email: [${answers.email}](mailto:${answers.email})
 `;
   return readmeContent;
   }
-
 
 module.exports = generateMarkdown;
