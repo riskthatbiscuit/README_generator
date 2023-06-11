@@ -22,6 +22,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'installation',
+        message: 'What is the process to install your application',
+    },
+    {
+        type: 'input',
         name: 'usage',
         message:'Provide instructions and examples for use. Include screenshots as needed.',
     },
@@ -32,8 +37,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'installation',
-        message: 'What is the process to install your application',
+        name: 'tests',
+        message: 'What tests are there for your application',
     },
     {
         type: 'checkbox',
@@ -46,11 +51,6 @@ const questions = [
         message: 'How do you people contribute to this project',
         name: 'contribute',
         choices: ['email', 'phone', 'telekinesis'],
-    },
-    {
-        type: 'input',
-        name: 'tests',
-        message: 'What tests are there for your application',
     },
 ];
 
@@ -71,10 +71,19 @@ function init() {
 
 function generateREADME(answers){
     const readmeContent = `
-# ${answers.title}
+# ${answers.titleEmoji} ${answers.title}
     
 ## Description 📝
 ${answers.description}
+
+## Table of Contents
+- [Usage](#usage-)
+- [Credits](#credits-)
+- [Installation](#installation-)
+- [Badges](#badges-)
+- [License](#license-)
+- [Tests](#tests-)
+- [Questions & How to Contribute](#questions--how-to-contribute-)
 
 ## Usage 🚀
 ${answers.usage}
@@ -88,11 +97,14 @@ ${answers.installation}
 ## Badges 🏅
 ${answers.badges}
 
-## How to Contribute 🤝
-${answers.contribute}
+## Licence 
+
 
 ## Tests ✅
 ${answers.tests}
+
+## Questions & How to Contribute 🤝
+${answers.contribute}
 `;
 return readmeContent;
 }
