@@ -5,14 +5,9 @@ The README File Creator is a command-line application that generates README file
 
 ## Features ✨
 - Choose an emoji for the project.
-- Provide a title for the project.
-- Write a brief description of your project.
-- Specify the installation process.
-- Provide instructions and examples for usage.
-- Credit individuals or resources.
-- Describe the tests for your application.
-- Choose a license for your application.
-- Select the technologies used in your project.
+- Provide a title, brief description, instruction process and examples for using your project.
+- Credit individuals or resources, describe the tests for your application.
+- Choose a license for your application, select the technologies used in your project.
 - Specify how people can contribute to the project.
 - Enter your GitHub username and email address.
 
