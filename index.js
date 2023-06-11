@@ -4,6 +4,12 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
+      {
+        type: 'list',
+        name: 'titleEmoji',
+        message: 'Choose an emoji for the project:',
+        choices: ['🌟', '🚀', '🎉', '🔥', '💡', '⭐️'],
+     },    
     {
         type: 'input',
         name: 'title',
@@ -17,7 +23,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use your application',
+        message:'Provide instructions and examples for use. Include screenshots as needed.',
     },
     {
         type: 'input',
@@ -67,27 +73,27 @@ function generateREADME(answers){
     const readmeContent = `
 # ${answers.title}
     
-## Description
+## Description 📝
 ${answers.description}
 
-## Usage
+## Usage 🚀
 ${answers.usage}
 
-## Credits
+## Credits 👏
 ${answers.credits}
 
-## Installation
+## Installation 🛠️
 ${answers.installation}
 
-## Badges
+## Badges 🏅
 ${answers.badges}
 
-## How to Contribute
+## How to Contribute 🤝
 ${answers.contribute}
 
-## Tests
+## Tests ✅
 ${answers.tests}
-`
+`;
 return readmeContent;
 }
 
