@@ -1,8 +1,11 @@
 
-# 🌟 asdfjklasdfjklasdfjkasldfjklasasdfhjkasldgjkalsdgjkaslgjiwoejfioaegklasdgjiaw0oefjioawefjioawejfioawjiefaklsdfjiaosdf
+# 🌟 Proejct 1
+
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
     
 ## Description 📝
-asdfjklasdfjklasdfjkasldfjklasasdfhjkasldgjkalsdgjkaslgjiwoejfioaegklasdgjiaw0oefjioawefjioawejfioawjiefaklsdfjiaosdf
+and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
+
 
 ## Table of Contents
 - [Usage](#usage-)
@@ -14,22 +17,26 @@ asdfjklasdfjklasdfjkasldfjklasasdfhjkasldgjkalsdgjkaslgjiwoejfioaegklasdgjiaw0oe
 - [Questions & How to Contribute](#questions--how-to-contribute-)
 
 ## Usage 🚀
-asdfjklasdfjklasdfjkasldfjklasasdfhjkasldgjkalsdgjkaslgjiwoejfioaegklasdgjiaw0oefjioawefjioawejfioawjiefaklsdfjiaosdf
+and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
 
 ## Credits 👏
-asdfjklasdfjklasdfjkasldfjklasasdfhjkasldgjkalsdgjkaslgjiwoejfioaegklasdgjiaw0oefjioawefjioawejfioawjiefaklsdfjiaosdf
+and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
 
 ## Installation 🛠️
-asdfjklasdfjklasdfjkasldfjklasasdfhjkasldgjkalsdgjkaslgjiwoejfioaegklasdgjiaw0oefjioawefjioawejfioawjiefaklsdfjiaosdf
+and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
 
-## Badges 🏅
+## Language Badges 💻
+![HTML](https://img.shields.io/badge/-HTML-brightgreen) ![CSS](https://img.shields.io/badge/-CSS-brightgreen) ![JavaScript](https://img.shields.io/badge/-JavaScript-brightgreen)
 
+ 
+## License
 
-## Licence 
+This application is covered under the MIT license.
 
+For more details, please refer to the [MIT License](LICENSE).
 
 ## Tests ✅
-asdfjklasdfjklasdfjkasldfjklasasdfhjkasldgjkalsdgjkaslgjiwoejfioaegklasdgjiaw0oefjioawefjioawejfioawjiefaklsdfjiaosdf
+and licenseSection variables. You have written licenceBadge and licenceSection instead. To fix the issue, update the variable n
 
 ## Questions & How to Contribute 🤝
 email

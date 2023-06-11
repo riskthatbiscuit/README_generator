@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -13,7 +14,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What do you want to call your project?',
+        message: 'What is the title of the project?',
     },
     {
         type: 'input',
@@ -41,9 +42,15 @@ const questions = [
         message: 'What tests are there for your application',
     },
     {
+        type: 'list',
+        message: 'Choose a license for your application:',
+        name: 'license',
+        choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'ISC', 'Unlicense'],
+    },
+    {
         type: 'checkbox',
-        message: 'What badges should be added?',
-        name: 'badges',
+        message: 'What technologies have been used?',
+        name: 'languages',
         choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
     },
     {
@@ -64,49 +71,9 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(answers => {
-        const readmeContent = generateREADME(answers)
+        const readmeContent = generateMarkdown(answers)
         writeToFile("README.md",readmeContent);
     })
-}
-
-function generateREADME(answers){
-    const readmeContent = `
-# ${answers.titleEmoji} ${answers.title}
-    
-## Description 📝
-${answers.description}
-
-## Table of Contents
-- [Usage](#usage-)
-- [Credits](#credits-)
-- [Installation](#installation-)
-- [Badges](#badges-)
-- [License](#license-)
-- [Tests](#tests-)
-- [Questions & How to Contribute](#questions--how-to-contribute-)
-
-## Usage 🚀
-${answers.usage}
-
-## Credits 👏
-${answers.credits}
-
-## Installation 🛠️
-${answers.installation}
-
-## Badges 🏅
-${answers.badges}
-
-## Licence 
-
-
-## Tests ✅
-${answers.tests}
-
-## Questions & How to Contribute 🤝
-${answers.contribute}
-`;
-return readmeContent;
 }
 
 // Function call to initialize app
