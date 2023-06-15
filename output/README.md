@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
     
 ## Description 📝
-This project is an awesome project hat was inspired by XXX that does YYY. You want to use it when ZZZ
+This project adresses XXX and was inspired by YYY. You really want to use this application when your're XZZZ
 
 
 ## Table of Contents
@@ -18,13 +18,13 @@ This project is an awesome project hat was inspired by XXX that does YYY. You wa
 - [Questions](#questions-)
 
 ## Usage 🚀
-Once downloaded, open the file and follow the instructions!
+Once downloaded, open the file and follow the instructions on using!
 
 ## Credits 👏
-My family should take all the credit!
+My family
 
 ## Installation 🛠️
-To install the application, simply download
+To installthe application, simply download
 
 ## Language Badges 💻
 ![CSS](https://img.shields.io/badge/-CSS-orange) ![JavaScript](https://img.shields.io/badge/-JavaScript-orange)
@@ -40,7 +40,7 @@ For more details, please refer to the [MIT License](LICENSE).
 There are no tests for this application
 
 ## How to Contribute 🤝
-If people wish to contribute to this project, email me
+If people wish to contribute the can email me
 
 ## Questions
 For any additional questions, please contact me:
