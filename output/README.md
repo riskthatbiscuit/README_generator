@@ -1,10 +1,10 @@
 
-# 🌟 Project II
+# 🔥 Project III
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
     
 ## Description 📝
-Its an awesome projet th that does so many things
+This project is an awesome project hat was inspired by XXX that does YYY. You want to use it when ZZZ
 
 
 ## Table of Contents
@@ -18,16 +18,16 @@ Its an awesome projet th that does so many things
 - [Questions](#questions-)
 
 ## Usage 🚀
-DOwnload and run, its that easy
+Once downloaded, open the file and follow the instructions!
 
 ## Credits 👏
-Noone
+My family should take all the credit!
 
 ## Installation 🛠️
-You have to download an applicat...
+To install the application, simply download
 
 ## Language Badges 💻
-![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-orange) ![JavaScript](https://img.shields.io/badge/-JavaScript-orange)
+![CSS](https://img.shields.io/badge/-CSS-orange) ![JavaScript](https://img.shields.io/badge/-JavaScript-orange)
 
 
 ## License 📝
@@ -37,14 +37,14 @@ This application is covered under the MIT license.
 For more details, please refer to the [MIT License](LICENSE).
 
 ## Tests ✅
-There are none
+There are no tests for this application
 
 ## How to Contribute 🤝
-Email me
+If people wish to contribute to this project, email me
 
 ## Questions
 For any additional questions, please contact me:
 
 GitHub: [riskthatbiscuit](https://github.com/riskthatbiscuit)
 
-Email: [cmd](mailto:cmd)
+Email: [caseymcgrath_1000@msn.com](mailto:caseymcgrath_1000@msn.com)
