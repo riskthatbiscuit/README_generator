@@ -20,7 +20,7 @@ To use the README File Creator, follow these steps:
 5. The generated README file will be saved in the "output" folder.
 
 ###
-Video Link [here]
+Video Link [here](./UserVideo.webm)
 
 ## Credits 👏
 The README File Creator was developed by [RiskthatBiscuit](https://github.com/riskthatbiscuit).
