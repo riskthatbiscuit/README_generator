@@ -34,7 +34,7 @@ const questions = [
     {
         type: 'input',
         name: 'credits',
-        message: 'Write who you oule like to credit',
+        message: 'Write who you would like to credit',
     },
     {
         type: 'input',

@@ -1,10 +1,10 @@
 
-# ⭐️ Project 3
+# 🌟 Project II
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
     
 ## Description 📝
-Project 3 really typifies the work that has been done by our
+Its an awesome projet th that does so many things
 
 
 ## Table of Contents
@@ -14,19 +14,20 @@ Project 3 really typifies the work that has been done by our
 - [Language Badges](#language-badges-)
 - [License](#license-)
 - [Tests](#tests-)
-- [Questions & How to Contribute](#questions--how-to-contribute-)
+- [How to Contribute](#how-to-contribute-)
+- [Questions](#questions-)
 
 ## Usage 🚀
-When things get a bit dicey, it is time to use the application, and so simply double clicking will generate the file.
+DOwnload and run, its that easy
 
 ## Credits 👏
-My course instructor & those that have preceeded us in building the appropriate technology
+Noone
 
 ## Installation 🛠️
- team, which has sought to solve the problem of XXX. This makes things easier by doing YYY and fills a current hole in the market. To install the application, you need to download the file XXX and run.
+You have to download an applicat...
 
 ## Language Badges 💻
-![JavaScript](https://img.shields.io/badge/-JavaScript-orange)
+![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-orange) ![JavaScript](https://img.shields.io/badge/-JavaScript-orange)
 
 
 ## License 📝
@@ -36,14 +37,14 @@ This application is covered under the MIT license.
 For more details, please refer to the [MIT License](LICENSE).
 
 ## Tests ✅
-There are no tests currently for this application
+There are none
 
 ## How to Contribute 🤝
-They can reach out directly. 
+Email me
 
 ## Questions
 For any additional questions, please contact me:
 
 GitHub: [riskthatbiscuit](https://github.com/riskthatbiscuit)
 
-Email: [caseymcgrath_1000@msn.com](mailto:caseymcgrath_1000@msn.com)
+Email: [cmd](mailto:cmd)
